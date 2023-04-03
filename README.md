@@ -1,6 +1,6 @@
 # Cuarta tarea de APA 2023: Generación de números aleatorios
 
-## Nom i cognoms
+## Nom i cognoms: Clara Barba Armengol
 
 ## Generación de números aleatorios usando el algoritmo LGC
 
@@ -170,6 +170,40 @@ resultado de la ejecución de los tests unitarios.
 Inserte a continuación el código de los métodos desarrollados en esta tarea, usando los
 comandos necesarios para que se realice el realce sintáctico en Python del mismo (no
 vale insertar una imagen o una captura de pantalla, debe hacerse en formato *markdown*).
+
+```python
+>>> rand = Aleat(m=32, a=9, c=13, x0=11)
+>>> for _ in range(4):
+...     print(next(rand))
+...
+16
+29
+18
+15
+
+
+>>> rand(29)
+>>> for _ in range(4):
+...     print(next(rand))
+...
+18
+15
+20
+1
+
+def __next__()
+    return 5
+
+def __init__(x0)
+    return x0 = 1212121
+
+
+
+def __call__()
+    return 5
+
+```
+
 
 #### Subida del resultado al repositorio GitHub y *pull-request*
 
